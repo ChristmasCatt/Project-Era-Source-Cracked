@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\z9jpo\Desktop\fortnite\FortniteLauncher.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D0672E0-255D-4C53-A6E4-E06AECB004B9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>EraLauncher</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>EraLauncher</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="INIFileParser">
+      <HintPath>lib\INIFileParser.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Toolkit.Uwp.Notifications">
+      <HintPath>lib\Microsoft.Toolkit.Uwp.Notifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell">
+      <HintPath>lib\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VersionData.cs" />
+    <Compile Include="LauncherFunctionsLibrary.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Settings.cs" />
+    <Compile Include="Misc\Classes\EraAPI.cs" />
+    <Compile Include="Home.xaml.cs">
+      <DependentUpon>home.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SettingsPage.xaml.cs">
+      <DependentUpon>settingspage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Changelog.xaml.cs">
+      <DependentUpon>changelog.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AddVersionPage.xaml.cs">
+      <DependentUpon>addversionpage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>mainwindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="buttonbg.png" />
+    <Resource Include="chapter-2-fortnite-event-0-1-scaled.jpg" />
+    <Resource Include="misc\images\421-4212627_battle-bus-png-transparent-background-fortnite-battle-bus.png" />
+    <Resource Include="misc\images\appbg.png" />
+    <Resource Include="misc\images\backgrounds\1.png" />
+    <Resource Include="misc\images\backgrounds\10.png" />
+    <Resource Include="misc\images\backgrounds\2.png" />
+    <Resource Include="misc\images\backgrounds\3.png" />
+    <Resource Include="misc\images\backgrounds\4.png" />
+    <Resource Include="misc\images\backgrounds\5.png" />
+    <Resource Include="misc\images\backgrounds\6.png" />
+    <Resource Include="misc\images\backgrounds\7.png" />
+    <Resource Include="misc\images\backgrounds\8.png" />
+    <Resource Include="misc\images\backgrounds\9.png" />
+    <Resource Include="misc\images\discordicon.png" />
+    <Resource Include="misc\images\eralogo.png" />
+    <Resource Include="misc\images\gear.png" />
+    <Resource Include="misc\images\icons\close.png" />
+    <Resource Include="misc\images\icons\close_hovered.png" />
+    <Resource Include="misc\images\icons\minimize.png" />
+    <Resource Include="misc\images\icons\minimize_hovered.png" />
+    <Resource Include="misc\images\launchericon.ico" />
+    <Resource Include="misc\images\mp.png" />
+    <Resource Include="misc\images\nav-settings.png" />
+    <Resource Include="misc\images\splashgradient.png" />
+    <Resource Include="misc\images\t-foldericon.png" />
+    <Resource Include="misc\images\t-soldier-hid-001-athena-commando-f-l.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="addversionpage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="changelog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="home.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="mainwindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="settingspage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

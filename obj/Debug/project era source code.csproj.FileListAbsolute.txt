@@ -1,0 +1,9 @@
+C:\Users\z9jpo\Desktop\project era code\project era source code\obj\Debug\project era source code.csproj.AssemblyReference.cache
+C:\Users\z9jpo\Desktop\project era code\project era source code\obj\Debug\project era source code.csproj.SuggestedBindingRedirects.cache
+C:\Users\z9jpo\Desktop\project era code\project era source code\obj\Debug\addversionpage.g.cs
+C:\Users\z9jpo\Desktop\project era code\project era source code\obj\Debug\changelog.g.cs
+C:\Users\z9jpo\Desktop\project era code\project era source code\obj\Debug\home.g.cs
+C:\Users\z9jpo\Desktop\project era code\project era source code\obj\Debug\mainwindow.g.cs
+C:\Users\z9jpo\Desktop\project era code\project era source code\obj\Debug\settingspage.g.cs
+C:\Users\z9jpo\Desktop\project era code\project era source code\obj\Debug\EraLauncher_MarkupCompile.cache
+C:\Users\z9jpo\Desktop\project era code\project era source code\obj\Debug\EraLauncher_MarkupCompile.lref
